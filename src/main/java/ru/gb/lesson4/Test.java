@@ -36,7 +36,7 @@ public class Test {public static void main(String[] args) {
         for(int i = 0; i < arr.length; i++){
             sum += arr[i];
         }
-        System.out.println("Summ of numbers is " + sum);;
+        System.out.println("Summ of numbers is " + sum);
     }
 
 
