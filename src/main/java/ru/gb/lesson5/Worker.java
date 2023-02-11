@@ -53,13 +53,10 @@ public class Worker {
         this.mail = mail;
         this.tel = tel;
         this.age = age;
+
+        System.out.println(name + " " + post + " " + mail + " " + tel + " " + age);
+
     }
-
-    public info(){
-        System.out.println(getName() + getPost() + getMail() + getTel() + getAge());
-    }
-
-
 
 }
 
