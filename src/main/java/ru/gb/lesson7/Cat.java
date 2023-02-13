@@ -19,7 +19,7 @@ public class Cat {
             System.out.println(name + " не удалось поесть и остался голоден");
         }
         if(full > 0){
-            System.out.println(name + " поел и сыт");
+            System.out.println(name + " поел " + appetit + " еды и сыт");
         }
     }
 
