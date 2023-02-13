@@ -1,15 +1,28 @@
 package ru.gb.lesson6;
 
 public class Cat extends Animal {
-    String color;
 
-    public Cat(String name, String color) {
+    public Cat(String name){
+        super();
         this.name = name;
-        this.color = color;
     }
 
-    public void catInfo() {
-        System.out.println("Кличка кота: " + name + " Окраска кота: " + color);
+      public void run(int runDist){
+        if(runDist <= 200){
+            System.out.println(name + " пробежал " + runDist + "м");
+        }else {
+            System.out.println("Кот не может пробежать больше 200м");
+        }
+
+    }
+
+    @Override
+    public void run() {
+
+    }
+
+    public void swim(){
+        System.out.println("Кот не умеет плавать");
     }
 
 }

@@ -1,23 +1,18 @@
 package ru.gb.lesson6;
 
-public class Animal {
+public abstract class Animal {
     String name;
-
-    public Animal(){
-
-    }
 
     public Animal(String name){
         this.name = name;
     }
 
-    public void animalInfo(){
-        System.out.println("Животное: " + name);
+    public Animal() {
+
     }
 
-    public void jump(){
-        System.out.println("Животное прыгнуло");
-    }
+    public abstract void run();
+    public abstract void swim();
 
 }
 
