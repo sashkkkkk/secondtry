@@ -16,7 +16,7 @@ public class LesApp {
 
         for(int i = 0; i < workArray.length; i++){
             if(workArray[i].getAge() > 25){
-                                System.out.println(workArray[i].getName() + " " + workArray[i].getPost() + " " + workArray[i].getMail() + " " + workArray[i].getTel() + " " + workArray[i].getAge());
+                System.out.println(workArray[i].getName() + " " + workArray[i].getPost() + " " + workArray[i].getMail() + " " + workArray[i].getTel() + " " + workArray[i].getAge());
             }
         }
     }
