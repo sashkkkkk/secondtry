@@ -9,7 +9,7 @@ public class CounterApp extends JFrame {
     private int value;
 
     public CounterApp(int initialValue) {
-        setBounds(500, 500, 300, 500);
+        setBounds(500, 500, 300, 300);
         setTitle("Simple Counter");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
