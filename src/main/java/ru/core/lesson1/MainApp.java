@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MainApp {
     public static void main(String[] args) {
-        Cat cat = new Cat("Barsik","Belyi", 2);
+       /* Cat cat = new Cat("Barsik","Belyi", 2);
         System.out.println(cat);
         Wolf wolf = new Wolf("VOlchara","Seriy",4);
         System.out.println(wolf);
@@ -27,7 +27,10 @@ public class MainApp {
         turtle.setSwimSpeed(5);
         wolf.swim(pool);
         cat.swim(pool);
-        turtle.swim(pool);
+        turtle.swim(pool);*/
+
+        Team team = new Team();
+        System.out.println();
 
 
 
