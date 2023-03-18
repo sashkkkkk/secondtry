@@ -29,8 +29,9 @@ public class GenBox<T> {
         int sum = box1.getObject() + box2.getObject();
         System.out.println(sum);
 
+        GenBox<String> box3 = new GenBox<>("jija");
+        System.out.println(box3);
 
     }
-
 
 }
